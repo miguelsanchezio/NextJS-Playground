@@ -72,18 +72,102 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "/Users/miguelsanchez/Websites/Udemy/React 16 - The Complete Guide/NextjsPlayground/node_modules/next/dist/pages/_error.js":
-/***/ (function(module, exports) {
+/***/ "./pages/_error.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = require("/Users/miguelsanchez/Websites/Udemy/React 16 - The Complete Guide/NextjsPlayground/node_modules/next/dist/pages/_error.js");
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router__ = __webpack_require__("next/router");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_router__);
+var _jsxFileName = '/Users/miguelsanchez/Websites/Udemy/React 16 - The Complete Guide/NextjsPlayground/pages/_error.js';
+
+
+
+
+var errorPage = function errorPage() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'h1',
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        }
+      },
+      'Oops, this page doesn\'t exist.'
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'p',
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        }
+      },
+      'Go ',
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+        { href: '/', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 8
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'a',
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 8
+            }
+          },
+          'back'
+        )
+      )
+    )
+  );
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (errorPage);
 
 /***/ }),
 
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("/Users/miguelsanchez/Websites/Udemy/React 16 - The Complete Guide/NextjsPlayground/node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__("./pages/_error.js");
 
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+
+/***/ "next/router":
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/***/ (function(module, exports) {
+
+module.exports = require("react");
 
 /***/ })
 
