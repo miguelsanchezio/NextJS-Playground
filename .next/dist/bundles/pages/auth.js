@@ -67,108 +67,93 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./components/User.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-var _jsxFileName = '/Users/miguelsanchez/Websites/Udemy/React 16 - The Complete Guide/NextjsPlayground/components/User.js';
-
-
-
-var User = function User(props) {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-    'div',
-    {
-      className: 'jsx-2974957094',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 4
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'h1',
-      {
-        className: 'jsx-2974957094',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 5
-        }
-      },
-      props.name
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'p',
-      {
-        className: 'jsx-2974957094',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
-      },
-      'Age: ',
-      props.age
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-      styleId: '2974957094',
-      css: 'div.jsx-2974957094{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;width:400px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvVXNlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNZ0IsQUFHK0Isc0JBQ0ksMEJBQ2IsYUFDSyxrQkFDTixZQUNkIiwiZmlsZSI6ImNvbXBvbmVudHMvVXNlci5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWlndWVsc2FuY2hlei9XZWJzaXRlcy9VZGVteS9SZWFjdCAxNiAtIFRoZSBDb21wbGV0ZSBHdWlkZS9OZXh0anNQbGF5Z3JvdW5kIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuY29uc3QgVXNlciA9IHByb3BzID0+IChcbiAgPGRpdj5cbiAgICA8aDE+e3Byb3BzLm5hbWV9PC9oMT5cbiAgICA8cD5BZ2U6IHtwcm9wcy5hZ2V9PC9wPlxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGRpdiB7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlZWU7XG4gICAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDNweCAjY2NjO1xuICAgICAgICBwYWRkaW5nOiAyMHB4O1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiA0MDBweDtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgVXNlcjsiXX0= */\n/*@ sourceURL=components/User.js */'
-    })
-  );
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (User);
+module.exports = require("react");
 
 /***/ }),
+/* 1 */,
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ "./pages/auth/index.js":
+module.exports = __webpack_require__(6);
+
+
+/***/ }),
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_User__ = __webpack_require__("./components/User.js");
-var _jsxFileName = '/Users/miguelsanchez/Websites/Udemy/React 16 - The Complete Guide/NextjsPlayground/pages/auth/index.js';
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "styled-jsx/style"
+var style_ = __webpack_require__(7);
+var style__default = /*#__PURE__*/__webpack_require__.n(style_);
+
+// CONCATENATED MODULE: ./components/User.js
 
 
 
-var authIndexPage = function authIndexPage(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+var User_User = function User(props) {
+  return external__react__default.a.createElement(
     'div',
     {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 5
-      }
+      className: 'jsx-2974957094'
     },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    external__react__default.a.createElement(
       'h1',
       {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
+        className: 'jsx-2974957094'
       },
-      'Auth Page - ',
-      props.appName
+      props.name
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_User__["a" /* default */], { name: 'Miguel', age: '24', __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7
-      }
+    external__react__default.a.createElement(
+      'p',
+      {
+        className: 'jsx-2974957094'
+      },
+      'Age: ',
+      props.age
+    ),
+    external__react__default.a.createElement(style__default.a, {
+      styleId: '2974957094',
+      css: ['div.jsx-2974957094{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;width:400px;}']
     })
   );
 };
 
-authIndexPage.getInitialProps = function (context) {
+/* harmony default export */ var components_User = (User_User);
+// CONCATENATED MODULE: ./pages/auth/index.js
+
+
+
+var auth_authIndexPage = function authIndexPage(props) {
+  return external__react__default.a.createElement(
+    'div',
+    null,
+    external__react__default.a.createElement(
+      'h1',
+      null,
+      'Auth Page - ',
+      props.appName
+    ),
+    external__react__default.a.createElement(components_User, { name: 'Miguel', age: '24' })
+  );
+};
+
+auth_authIndexPage.getInitialProps = function (context) {
   var promise = new Promise(function (resolve, reject) {
     setTimeout(function () {
       resolve({ appName: 'Super App(Auth)' });
@@ -177,31 +162,13 @@ authIndexPage.getInitialProps = function (context) {
   return promise;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (authIndexPage);
+/* harmony default export */ var auth = __webpack_exports__["default"] = (auth_authIndexPage);
 
 /***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/auth/index.js");
-
-
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
+/* 7 */
 /***/ (function(module, exports) {
 
 module.exports = require("styled-jsx/style");
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=auth.js.map
+/******/ ]);
